@@ -84,34 +84,36 @@ footer {
 
 .home {
     display: flex;
-    align-items: center;
-    gap: 2rem;
+    align-items: flex-start;
+    gap: 9rem;
 }
 
 .home-text {
-    max-width: 500px;
+    max-width: 600px;
+    text-align: justify;
 }
 
 .home h1 {
-    font-size: 4rem;
-    line-height: 1.1;
-    margin-bottom: 2rem;
+    font-size: 3.5rem;
+    line-height: .75;
+    margin-bottom: 0rem;
+    text-align: center;
 }
 
 .home p {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     line-height: 1.6;
 }
 
 .profile-img {
-    width: 550px;
-    height: 550px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     object-fit: cover;
 }
 
 .quote-box {
-    margin: 4rem;
+    margin: 0rem 4rem 4rem 9rem;
     font-size: 1.25rem;
     max-width: 700px;
 }
