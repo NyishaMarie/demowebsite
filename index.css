@@ -95,8 +95,8 @@ footer {
 
 .home h1 {
     font-size: 3.5rem;
-    line-height: .75;
-    margin-bottom: 0rem;
+    line-height: 1.25;
+    margin-bottom: -1rem;
     text-align: center;
 }
 
@@ -132,7 +132,6 @@ textarea {
 button {
   margin-top: 1.5rem;
   padding: 0.75rem;
-  border: 2px;
   background-color: #3d2f2f;
   color: white;
   font-size: 1rem;
@@ -186,7 +185,7 @@ textarea {
 
 .about-layout {
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     margin: 0;
     align-items: flex-start;
 }
