@@ -163,6 +163,23 @@ textarea {
     width: 100%
 }
 
+.contact-layout {
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+}
+.contact-layout form {
+    flex: 1;
+    max-width: 500px;
+}
+
+.contact-image {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
 /* ABOUT SECTION */
 
 .about-layout {
