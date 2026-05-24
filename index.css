@@ -123,8 +123,7 @@ footer {
 
 textarea {
   padding: 0.75rem;
-  border: 2px solid #aaa;
-  border-radius: 6px;
+  border: 2px solid #a52a2a;
   font-size: 1rem;
 }
 
@@ -135,12 +134,33 @@ button {
   background-color: #3d2f2f;
   color: white;
   font-size: 1rem;
-  border-radius: 6px;
   cursor: pointer;
 }
 
 button:hover {
   background-color: #6b4f4f;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: .25rem
+}
+
+input[type="text"],
+input[type="email"], 
+textarea {
+    padding: .75rem;
+    font-size: 1rem;
+    border: 2px solid #a52a2a;
+    box-sizing: border-box;
+    width: 100%
 }
 
 /* ABOUT SECTION */
